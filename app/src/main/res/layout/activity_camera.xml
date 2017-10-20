@@ -9,10 +9,15 @@
         android:layout_height="wrap_content"
         android:text="Take Photo" />
 
+    <Button
+        android:id="@+id/select_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Photo" />
+
     <ImageView
         android:id="@+id/picture"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal" />
-
 </LinearLayout>
